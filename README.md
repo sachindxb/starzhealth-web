@@ -1,3 +1,50 @@
+# StarzHealth Web
+
+This repository contains the full website design and assets for **StarzHealth TPA Services LLC**.
+
+## 🔗 Live Demo
+
+(Not deployed yet – local setup required)
+
+## 📁 Project Structure
+
+- `/public`
+  - **/doctors**: Doctor images (male/female placeholders)
+  - **/forms**: Downloadable claim and reimbursement forms (PDF)
+  - **/insurance**: Insurance provider logos (placeholder)
+  - **/providers**: Provider logos (placeholder)
+  - **/social**: Social media icons
+  - `starzhealth.png`: Main company logo
+
+- `/src/app`
+  - `doctors/`: Find-a-Doctor pages
+  - `providers/`: Find-a-Provider pages
+  - `resources/`: Patient resources (FAQ, forms, insurance)
+  - `services/`: Telehealth and other service pages
+  - `auth/`: Login, Register, Forgot Password
+  - `dashboard/`: Member dashboard pages (appointments, billing, medical records)
+
+- `/src/components`: Reusable components (Card, Button, Modal, Header, Footer, etc.)
+
+## ✅ Features
+
+- **Responsive Design**
+- Fully functional **Doctor & Provider Finder**
+- Downloadable **Claim & Reimbursement Forms**
+- Patient resources (FAQs, Insurance info)
+- Modular structure (Next.js + Tailwind CSS)
+
+## 🛠 How to Run Locally
+
+```bash
+git clone https://github.com/sachindxb/starzhealth-web.git
+cd starzhealth-web
+npm install
+npm run dev
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
