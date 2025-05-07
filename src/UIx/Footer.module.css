@@ -1,0 +1,42 @@
+/* Footer.module.css */
+.footerLink {
+    position: relative;
+    color: #4B5563;
+    transition: color 200ms ease-in-out;
+  }
+  
+  .footerLink::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: width 200ms ease-in-out;
+  }
+  
+  .footerLink:hover {
+    color: #2980bc;
+  }
+  
+  .footerLink:hover::after {
+    width: 100%;
+    background-color: #2980bc;
+  }
+  
+  .socialIcon {
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .socialIcon:hover {
+    transform: translateY(-2px);
+  }
+  
+  .logoContainer {
+    display: inline-block;
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .logoContainer:hover {
+    transform: scale(1.05);
+  }
